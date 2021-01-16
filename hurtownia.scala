@@ -22,8 +22,7 @@ OUTPUTFORMAT
 spark.sql("""CREATE TABLE `typy_pojazdow` (
  `id` int,
  `typ` string,
- `kategoria` string,
- `rodzaj` string)
+ `kategoria` string)
 ROW FORMAT SERDE
  'org.apache.hadoop.hive.ql.io.orc.OrcSerde'
 STORED AS INPUTFORMAT
