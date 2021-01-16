@@ -36,7 +36,6 @@ spark.sql("""CREATE TABLE `miejsca` (
  `kod_ons_obszaru` string,
  `nazwa_obszaru` string,
  `nazwa_regionu` string,
- `krolestwo` string,
  `nazwa_drogi` string,
  `kategoria_drogi` string,
  `typ_drogi` string)
