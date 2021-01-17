@@ -31,7 +31,7 @@ OUTPUTFORMAT
  'org.apache.hadoop.hive.ql.io.orc.OrcOutputFormat'""")
 
 spark.sql("""CREATE TABLE `miejsca` (
- `id` int,
+ `id` bigint,
  `kod_ons_obszaru` string,
  `nazwa_obszaru` string,
  `nazwa_regionu` string,
